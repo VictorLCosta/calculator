@@ -1,0 +1,13 @@
+.calculator {
+    font-size: 2rem;
+    background: #222;
+    height: 320px;
+    width: 235px;
+    border-radius: .5rem;
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-template-rows: 48px 48px 48px 48px 48px;
+}
